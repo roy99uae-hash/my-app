@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <!--
+      Offline edition. connect-src 'none' blocks every network request the page could
+      make, so no data can leave the computer. 'unsafe-eval' is needed only to evaluate
+      the shared preload API script.
+    -->
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="default-src 'none'; script-src 'self' 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; font-src 'self' data:; connect-src 'none'; frame-src 'self' data: blob:; object-src 'none'; base-uri 'none'; form-action 'none'"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Gulf Tech Dubai Invoice Manager - offline invoicing (browser edition)" />
+    <title>Gulf Tech Dubai Invoice Manager</title>
+  </head>
+  <body>
+    <div id="root"><div class="boot"><div class="spinner" aria-label="Loading"></div></div></div>
+    <script type="module" src="./main.jsx"></script>
+  </body>
+</html>

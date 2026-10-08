@@ -44,6 +44,7 @@ never requires or uses the internet, cloud services or online APIs.
 - [Installation guide](INSTALLATION.md)
 - [User manual](USER_MANUAL.md)
 - [Build and developer guide](BUILD.md)
+- [Offline browser edition](BROWSER_EDITION.md) – the same app as one HTML file
 
 ## Architecture
 

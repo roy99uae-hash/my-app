@@ -381,3 +381,8 @@ em { font-style: normal; font-weight: 600; }
   .icon-btn { padding: 10px; }
 }
 @media print { .sidebar, .toast-stack { display: none; } }
+
+/* Startup error panel (browser edition). */
+.boot-error { max-width: 480px; padding: 24px; text-align: center; color: var(--text, #0f172a); }
+.boot-error h1 { font-size: 20px; margin: 0 0 12px; }
+.boot-error p { margin: 8px 0; color: var(--muted, #475569); }

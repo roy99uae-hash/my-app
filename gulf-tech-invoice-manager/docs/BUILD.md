@@ -26,10 +26,12 @@ npm run start          # build the UI and launch the desktop app
 | `npm start` | Build the UI and launch Electron |
 | `npm test` | Unit and integration tests (calculations, numbering, validation, crypto, key store, database, backup, templates, reports, IPC) |
 | `npm run test:ui` | Headless UI smoke test: renders every page against a fake bridge |
-| `npm run test:all` | Both test suites |
+| `npm run test:all` | All test suites (unit, UI smoke, browser edition) |
 | `npm run build:win` | Tests, UI build, then the NSIS installer in `release/` |
 | `npm run build:win:portable` | Tests, UI build, then the portable executable in `release/` |
 | `npm run pack` | Unpacked app folder in `release/win-unpacked/` for quick checks |
+| `npm run test:browser` | Tests for the offline browser edition (backend and UI) |
+| `npm run build:browser` | Offline browser ZIP (single HTML file) and the source ZIP in `release/` |
 
 ## Output
 
@@ -47,7 +49,9 @@ docs/                  README, installation guide, user manual, this guide
 electron/              main process, preload bridge, IPC, services, data, security
 shared/                domain logic shared by UI and tests (money, calc, numbering, templates)
 src/                   React renderer (pages, components, context, styles)
-tests/                 node:test suites and tests/ui headless UI smoke test
+tests/                 node:test suites, tests/ui (desktop UI smoke), tests/browser (browser edition)
+browser/               offline browser edition: entry, backend, Electron/Node browser shims
+scripts/               packaging (offline ZIPs)
 LICENSE.txt            End user licence (shown in the installer)
 ```
 
