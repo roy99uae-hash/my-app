@@ -1,0 +1,23 @@
+GULF TECH DUBAI INVOICE MANAGER - END USER LICENSE AGREEMENT
+
+Copyright (c) Gulf Tech Dubai. All rights reserved.
+
+1. GRANT. You may install and use this software on the computers you own or
+   control for your own business invoicing. You may make backup copies of your
+   data at any time.
+
+2. RESTRICTIONS. You may not reverse engineer, redistribute, sublicense or sell
+   the software, or remove copyright notices.
+
+3. DATA OWNERSHIP. All business data you create (customers, products, invoices,
+   settings, backups) belongs to you. The software stores this data locally on
+   your computer and does not transmit it to any server.
+
+4. NO WARRANTY. The software is provided "as is", without warranty of any kind.
+   You are responsible for keeping backups and for the accuracy of invoices,
+   tax (VAT/TRN) information and legal documents you issue. Consult a qualified
+   tax adviser for compliance questions. In no event shall Gulf Tech Dubai be
+   liable for any damages arising from use of the software.
+
+5. TERMINATION. This license terminates if you breach these terms. On
+   termination, stop using and uninstall the software.
